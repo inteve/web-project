@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="{$robots}" n:ifset="$robots">
+
+	<title>{ifset title}{include title|striptags|strip|trim} | {/ifset}Inteve Web</title>
+
+	{if $production}
+		<link rel="stylesheet" type="text/css" href="{$basePath}/dtf/styles.css">
+	{else}
+		<script>
+		less = {
+			env: 'development',
+			relativeUrls: true
+		};
+		</script>
+		<link rel="stylesheet/less" type="text/css" href="{$basePath}/dtf/styles.less">
+		<script src="{$basePath}/dtf/bower_components/less/dist/less.js"></script>
+	{/if}
+
+	<link rel="shortcut icon" href="{$basePath}/favicon.ico">
+	{block head}{/block}
+</head>
+
+<body>
+	<div n:foreach="$flashes as $flash" n:class="flash, $flash->type">{$flash->message}</div>
+
+	{include content}
+
+	{block scripts}
+	<script src="{$basePath}/dtf/scripts.js"></script>
+	{/block}
+</body>
+</html>

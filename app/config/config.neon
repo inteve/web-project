@@ -1,0 +1,30 @@
+
+parameters:
+	production: on
+
+
+extensions:
+	leanmapper: JP\LeanMapperExtension\LeanMapperExtension
+
+
+php:
+	date.timezone: Europe/Prague
+
+
+application:
+	errorPresenter: Error
+	mapping:
+		*: InteveApp\*Module\Presenters\*Presenter
+
+
+session:
+	expiration: 14 days
+
+
+leanmapper:
+	defaultEntityNamespace: InteveApp\Model\Entity
+
+
+services:
+	router: InteveApp\RouterFactory::createRouter
+	formFactory: InteveApp\Forms\FormFactory

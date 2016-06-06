@@ -1,0 +1,33 @@
+{
+	"name": "inteve/web-project",
+	"description": "Default web-project",
+	"type": "project",
+	"license": "BSD-3",
+	"authors": [
+		{
+			"name": "Jan Pecha",
+			"email": "janpecha@email.cz"
+		}
+	],
+	"require": {
+		"php": ">= 5.3.0",
+		"nette/application": "^2.2",
+		"nette/bootstrap": "^2.2",
+		"nette/caching": "^2.2",
+		"nette/di": "^2.2",
+		"nette/finder": "^2.2",
+		"nette/forms": "^2.2",
+		"nette/http": "^2.2",
+		"nette/mail": "^2.2",
+		"nette/robot-loader": "^2.2",
+		"nette/safe-stream": "^2.2",
+		"nette/security": "^2.2",
+		"nette/utils": "^2.2",
+		"latte/latte": "^2.2",
+		"tracy/tracy": "^2.2",
+		"inlm/model": "dev-master",
+		"inteve/forms": "dev-master",
+		"inteve/application": "dev-master",
+		"janpecha/leanmapper-extension": "^0.9"
+	}
+}

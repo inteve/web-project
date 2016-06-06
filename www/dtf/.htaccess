@@ -1,0 +1,6 @@
+<IfModule mod_include.c>
+	<FilesMatch "scripts\.js$">
+		Options +Includes
+		SetOutputFilter INCLUDES
+	</FilesMatch>
+</IfModule>
