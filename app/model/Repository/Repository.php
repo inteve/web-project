@@ -5,7 +5,7 @@
 	use LeanMapper;
 
 
-	abstract class BaseRepository extends LeanMapper\Repository
+	abstract class Repository extends LeanMapper\Repository
 	{
 		use \Inlm\Model\TRepository;
 		use \Inlm\Model\TQueryableRepository;
