@@ -28,6 +28,7 @@
 		"inlm/model": "dev-master",
 		"inteve/forms": "dev-master",
 		"inteve/application": "dev-master",
-		"janpecha/leanmapper-extension": "^0.9"
+		"janpecha/leanmapper-extension": "^0.9",
+		"nextras/migrations": "^3.0"
 	}
 }
