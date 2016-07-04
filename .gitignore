@@ -1,5 +1,4 @@
 /vendor
 app/config/config.local.neon
 *.sublime-workspace
-composer.lock
 bower_components/
