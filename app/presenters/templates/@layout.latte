@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width">
 	<meta name="robots" content="{$robots}" n:ifset="$robots">
 
-	<title>{ifset title}{include title|striptags|strip|trim} | {/ifset}Inteve Web</title>
+	<title>{ifset title}{include title|stripHtml|trim} | {/ifset}Inteve Web</title>
 
 	{if $production}
 		<link rel="stylesheet" type="text/css" href="{$basePath}/dtf/styles.css">
