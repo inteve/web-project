@@ -1,3 +1,3 @@
-<!--#include file="bower_components/jquery/dist/jquery.js" -->
-<!--#include file="bower_components/nette-forms/src/assets/netteForms.js" -->
+<!--#include file="_components/components/jquery/jquery.js" -->
+<!--#include file="_components/nette/forms/netteForms.js" -->
 <!--#include file="js/main.js" -->

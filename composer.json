@@ -9,6 +9,13 @@
 			"homepage": "https://www.janpecha.cz/"
 		}
 	],
+	"config": {
+		"assets-dir": "www/dtf/_components",
+		"assets-files": {
+			"nette/forms": "src/assets/netteForms.js",
+			"components/jquery": "jquery.js"
+		}
+	},
 	"require": {
 		"php": ">= 5.6.0",
 		"nette/application": "^2.4",
@@ -28,6 +35,11 @@
 		"inteve/forms": "dev-master",
 		"inteve/application": "dev-master",
 		"janpecha/leanmapper-extension": "^0.9",
-		"nextras/migrations": "^3.0"
+		"nextras/migrations": "^3.0",
+		"frontpack/composer-assets-plugin": "^0.9.0",
+		"components/jquery": "^1.12"
+	},
+	"require-dev": {
+		"frontpack/less": "^2.7"
 	}
 }

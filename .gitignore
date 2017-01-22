@@ -1,4 +1,4 @@
 /vendor
 app/config/config.local.neon
 *.sublime-workspace
-bower_components/
+www/dtf/_components/
