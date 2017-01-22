@@ -4,5 +4,5 @@
 ## Installation
 
 ```
-composer create-project inteve/web-project <directory> @dev
+composer create-project inteve/web-project <directory>
 ```
