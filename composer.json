@@ -2,7 +2,7 @@
 	"name": "inteve/web-project",
 	"description": "Default website project with Nette & Lean Mapper",
 	"type": "project",
-	"license": "BSD-3",
+	"license": "BSD-3-Clause",
 	"authors": [
 		{
 			"name": "Jan Pecha",
