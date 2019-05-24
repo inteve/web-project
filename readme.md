@@ -12,12 +12,12 @@ composer create-project inteve/web-project <directory>
 
 ## Notice: Composer PHP version
 
-This project forces PHP 5.6 as your PHP version for Composer packages. If you have newer version on production server you should change it in composer.json:
+This project forces PHP 7.2 as your PHP version for Composer packages. If you have older version on production server you should change it in composer.json:
 
 ```
 "config": {
 	"platform": {
-		"php": "7.2"
+		"php": "5.6"
 	}
 }
 ```
