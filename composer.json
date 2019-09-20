@@ -43,7 +43,7 @@
 		"tracy/tracy": "^2.4",
 		"inlm/model": "^2.0",
 		"inteve/forms": "dev-master",
-		"inteve/application": "dev-master",
+		"inteve/application": "^1.0",
 		"janpecha/leanmapper-extension": "^0.9",
 		"nextras/migrations": "^3.0",
 		"frontpack/composer-assets-plugin": "^0.9.0",
