@@ -5,7 +5,7 @@
 	use LeanMapper;
 
 
-	abstract class Entity extends LeanMapper\Entity
+	abstract class BaseEntity extends LeanMapper\Entity
 	{
 		use \Inlm\Model\TEntity;
 		use \Inlm\Model\TQueryableEntity;
