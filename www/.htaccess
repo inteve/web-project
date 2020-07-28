@@ -29,3 +29,25 @@
 		AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json application/xml image/svg+xml
 	</IfModule>
 </IfModule>
+
+# enable caching
+<IfModule mod_expires.c>
+	ExpiresActive On
+
+	# expiruje pocet sekund pote, kdy byl accessnut (A)
+	ExpiresByType application/x-javascript A2592000
+	ExpiresByType application/javascript A2592000
+	ExpiresByType text/css A2592000
+	ExpiresByType image/gif A31536000
+	ExpiresByType image/jpeg A31536000
+	ExpiresByType image/png A31536000
+	ExpiresByType image/webp A31536000
+	ExpiresByType image/svg+xml A31536000
+
+	# vsechno ostatni vyprsi 1 den od chvile, kdy to bylo naposledy zmeneno
+	ExpiresDefault "modification plus 1 day"
+
+	<Files ~ "\.(js|css|xml|gz|html)$">
+		Header set Vary Accept-Encoding
+	</Files>
+</IfModule>
