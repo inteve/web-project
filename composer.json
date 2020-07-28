@@ -43,7 +43,7 @@
 		"latte/latte": "^2.4",
 		"tracy/tracy": "^2.4",
 		"inlm/model": "^2.0",
-		"inteve/forms": "dev-master",
+		"inteve/forms": "^1.0",
 		"inteve/application": "^1.0",
 		"janpecha/leanmapper-extension": "^0.9",
 		"nextras/migrations": "^3.0",
