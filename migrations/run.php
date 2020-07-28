@@ -7,7 +7,7 @@ use Nextras\Migrations\Extensions;
 
 $container = require __DIR__ . '/../app/bootstrap.php';
 
-$conn = $container->getByType('LeanMapper\Connection');
+$conn = $container->getByType(LeanMapper\Connection::class);
 $dbal = new Bridges\Dibi\DibiAdapter($conn);
 $driver = new Drivers\MySqlDriver($dbal);
 
