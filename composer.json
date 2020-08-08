@@ -11,10 +11,6 @@
 	],
 	"config": {
 		"assets-dir": "www/dtf/_components",
-		"assets-files": {
-			"nette/forms": "src/assets/netteForms.js",
-			"components/jquery": "jquery.js"
-		},
 		"platform": {
 			"php": "7.2"
 		},
