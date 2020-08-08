@@ -10,11 +10,13 @@
 		}
 	],
 	"config": {
-		"assets-dir": "www/dtf/_components",
 		"platform": {
 			"php": "7.2"
 		},
 		"sort-packages": true
+	},
+	"extra": {
+		"assets-dir": "www/dtf/_components"
 	},
 	"repositories": [
 		{
@@ -43,7 +45,7 @@
 		"inteve/application": "^1.0",
 		"janpecha/leanmapper-extension": "^0.9",
 		"nextras/migrations": "^3.0",
-		"frontpack/composer-assets-plugin": "^0.9.0",
+		"frontpack/composer-assets-plugin": "^0.10.0",
 		"components/jquery": "^1.12"
 	},
 	"require-dev": {
