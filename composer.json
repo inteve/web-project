@@ -28,7 +28,7 @@
 		"php": ">= 7.2.0",
 		"components/jquery": "^1.12",
 		"dg/composer-cleaner": "dev-pr/ignore-masks",
-		"frontpack/composer-assets-plugin": "^0.10.0",
+		"frontpack/composer-assets-plugin": "^0.11.0",
 		"inlm/model": "^2.0",
 		"inteve/application": "^1.0",
 		"inteve/forms": "^1.0",
