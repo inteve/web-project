@@ -18,12 +18,6 @@
 	"extra": {
 		"assets-dir": "www/dtf/_components"
 	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/janpecha/composer-cleaner"
-		}
-	],
 	"require": {
 		"php": ">= 7.2.0",
 		"janpecha/composer-cleaner": "^1.0",
