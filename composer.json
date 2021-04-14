@@ -22,10 +22,10 @@
 		"php": ">= 7.2.0",
 		"janpecha/composer-cleaner": "^1.0",
 		"frontpack/composer-assets-plugin": "^0.11.0",
-		"inlm/model": "^2.0",
+		"inlm/model": "^3.1",
 		"inteve/application": "^1.0",
 		"inteve/forms": "^1.0",
-		"janpecha/leanmapper-extension": "^0.9",
+		"janpecha/leanmapper-extension": "^0.13",
 		"latte/latte": "^2.4",
 		"nette/application": "^2.4",
 		"nette/bootstrap": "^2.4",
@@ -42,6 +42,6 @@
 		"tracy/tracy": "^2.4"
 	},
 	"require-dev": {
-		"frontpack/less": "^3.0"
+		"frontpack/less": "^4.1"
 	}
 }
