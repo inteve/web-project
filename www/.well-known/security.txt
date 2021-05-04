@@ -1,0 +1,3 @@
+Contact: mailto:security@example.com
+Contact: https://www.example.com/contacts/
+Preferred-Languages: cs, en

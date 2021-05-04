@@ -11,6 +11,7 @@ composer create-project inteve/web-project <directory>
 ```
 
 * change namespace `InteveApp` to something else
+* change contacts in `www/.well-known/security.txt`
 
 
 ## Notice: Composer PHP version
