@@ -28,6 +28,9 @@
 				$code = $exception->getCode();
 				$this->setView(in_array($code, [403, 404, 405, 410, 500]) ? $code : '4xx');
 
+			} elseif ($exception instanceof \Inlm\Model\INotFoundException) {
+				$this->setView(404);
+
 			} else {
 				$this->setView('500');
 				$this->logger->log($exception, ILogger::EXCEPTION);
