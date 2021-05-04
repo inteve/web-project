@@ -31,6 +31,9 @@
 			} elseif ($exception instanceof \Inlm\Model\INotFoundException) {
 				$this->setView(404);
 
+			} elseif ($exception instanceof \Inteve\Authorizator\AuthorizationException) {
+				$this->setView(403);
+
 			} else {
 				$this->setView('500');
 				$this->logger->log($exception, ILogger::EXCEPTION);
