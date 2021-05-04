@@ -12,6 +12,7 @@ if (($debug = getenv('NETTE_DEBUG')) !== FALSE) { // https://forum.nette.org/cs/
 //$configurator->setDebugMode('23.75.345.200'); // enable for your remote IP
 $configurator->enableDebugger(__DIR__ . '/../log');
 
+$configurator->setTimeZone('UTC');
 $configurator->setTempDirectory(__DIR__ . '/../temp');
 
 $configurator->createRobotLoader()

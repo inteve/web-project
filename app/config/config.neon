@@ -6,10 +6,6 @@ extensions:
 	leanmapper: JP\LeanMapperExtension\LeanMapperExtension
 
 
-php:
-	date.timezone: Europe/Prague
-
-
 application:
 	errorPresenter: Error
 	mapping:
