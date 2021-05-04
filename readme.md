@@ -10,6 +10,9 @@
 composer create-project inteve/web-project <directory>
 ```
 
+* change namespace `InteveApp` to something else
+
+
 ## Notice: Composer PHP version
 
 This project forces PHP 7.2 as your PHP version for Composer packages. If you have older version on production server you should change it in composer.json:
