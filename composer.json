@@ -16,7 +16,7 @@
 		"sort-packages": true
 	},
 	"extra": {
-		"assets-dir": "www/dtf/_components"
+		"assets-dir": "www/dtf/assets"
 	},
 	"require": {
 		"php": ">= 7.2.0",
