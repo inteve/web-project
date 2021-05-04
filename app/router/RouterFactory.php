@@ -1,6 +1,6 @@
 <?php
 
-	namespace InteveApp;
+	namespace InteveApp\Router;
 
 	use Nette;
 	use Nette\Application\Routers\RouteList;

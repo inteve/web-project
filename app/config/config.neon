@@ -25,5 +25,5 @@ leanmapper:
 
 
 services:
-	router: InteveApp\RouterFactory::createRouter
+	router: InteveApp\Router\RouterFactory::createRouter
 	formFactory: InteveApp\Forms\FormFactory
