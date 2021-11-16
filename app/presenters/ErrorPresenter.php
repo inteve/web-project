@@ -41,7 +41,7 @@
 
 			if ($this->isAjax()) {
 				$this->payload->error = TRUE;
-				$this->terminate();
+				$this->sendPayload();
 			}
 		}
 	}
